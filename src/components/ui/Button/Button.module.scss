@@ -1,0 +1,81 @@
+.button {
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: all 150ms ease-in-out;
+
+  &__variant {
+    &--primary {
+      background-color: var(--primary);
+      color: var(--frost-white);
+
+      &:hover {
+        background-color: var(--primary-hover);
+      }
+    }
+
+    &--primary-outline {
+      border: 1px solid var(--primary);
+      background-color: var(--frost-white);
+      color: var(--primary);
+
+      &:hover {
+        border-color: var(--primary-hover);
+        color: var(--primary-hover);
+      }
+    }
+
+    &--secondary {
+      background-color: var(--secondary);
+      color: var(--frost-white);
+
+      &:hover {
+        background-color: var(--secondary-hover);
+      }
+    }
+
+    &--secondary-outline {
+      border: 1px solid var(--secondary);
+      background-color: var(--frost-white);
+      color: var(--secondary);
+
+      &:hover {
+        border-color: var(--secondary-hover);
+        color: var(--secondary-hover);
+      }
+    }
+
+    &--tertiary {
+      background-color: var(--tertiary);
+      color: var(--frost-white);
+
+      &:hover {
+        background-color: var(--tertiary-hover);
+      }
+    }
+
+    &--tertiary-outline {
+      border: 1px solid var(--tertiary);
+      background-color: var(--frost-white);
+      color: var(--tertiary);
+
+      &:hover {
+        border-color: var(--tertiary-hover);
+        color: var(--tertiary-hover);
+      }
+    }
+  }
+
+  &__size {
+    &--sm {
+      padding: 0.5rem 1rem;
+    }
+
+    &--base {
+      padding: 0.75rem 1rem;
+    }
+
+    &--lg {
+      padding: 1rem 1rem;
+    }
+  }
+}
